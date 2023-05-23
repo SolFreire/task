@@ -13,6 +13,9 @@ import SingIn from './src/Views/login';
 
 export default function App(){
   return(
-    <SingIn></SingIn>
+    <View>
+      <SingIn/>
+    </View>
+    
   )
 }

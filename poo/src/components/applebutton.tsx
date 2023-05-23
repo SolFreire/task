@@ -15,10 +15,12 @@ import {SvgXml} from 'react-native-svg'
 //TO-DO:importar os svgs
 export default function LoginWithApple(){
     return(
+    <View>
     <TouchableOpacity style={style.container}>
         <Text style={style.text}>Continuar com Apple</Text>
         <SvgXml xml={Applelogo} style={style.icon}/>
     </TouchableOpacity>
+    </View>
     )
 }
 
